@@ -1,0 +1,4 @@
+mysql_host: 'terraform-20210605110002629100000001.csqclro3sdqb.ap-south-1.rds.amazonaws.com'
+mysql_user: 'akash'
+mysql_password: 'myredhat'
+mysql_db: 'flaskdb'

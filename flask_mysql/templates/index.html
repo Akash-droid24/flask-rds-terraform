@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body {
+  background-image: url('https://raw.githubusercontent.com/Akash-droid24/image-repo/main/pixel2.jpg');
+}
+
+
+
+
+
+input[type=text], input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+h1 {text-align: center;}
+
+.text-center {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+  background-color: #333;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: brown;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
+    <form method="POST" action="">  
+      <div class="site-logo">
+        <img src="https://raw.githubusercontent.com/Akash-droid24/image-repo/main/final_logo.png" alt="logo" width="400px" height="120px">
+        
+      </div>
+      
+      <div class="text-center">          
+	    <p style="font-family: Lucida Console;font-size: larger;"><b> <label for="name">Name</label></b></p>
+      <input name='name' placeholder="Enter Name" type="text" />
+      <br />
+      <p style="font-family: Lucida Console;font-size: larger;"><b> <label for="email">Email </label></b></p>
+      <input name='email' placeholder="Enter Email" type ="email" />
+      <br />
+      <p style="font-family: Lucida Console;font-size: larger;"><b> <label for="password">Password </label></b></p>
+      <input name='password' placeholder="Enter Password" type ="password" />
+      <br />
+      <p style="font-family: Lucida Console;font-size: larger;"><b><label for="gender">Gender</label></b></p>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>  
+      <br />
+      <p style="font-family: Lucida Console;font-weight: bolder;"><b><label for="country">Country</label></b></p>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="india">India</option>
+        <option value="canada">Canada</option>
+        <option value="albania">Albania</option>
+        <option value="usa">USA</option>
+        <option value="belgium">Belgium</option>
+        <option value="greece">Greece</option>
+      </select>
+      <br />
+      <input type='submit' />
+    </div>
+    </form>
+
+   <!--Link to custom js (script.js)-->
+ <script src="script.js"></script>
+</body>
+</html>
